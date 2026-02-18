@@ -1,0 +1,5 @@
+terraform/
+scripts/
+*.tfstate*
+key_data
+.terraform/
