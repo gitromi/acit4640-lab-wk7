@@ -22,15 +22,15 @@ Import the new public to the AWS account using the `import_lab_key` script using
 
 ## 2. Run terraform configuration
 cd into your terraform directory and run:
-`terraform init`
+`terraform init` # Initialize provider plugins
 
-`terraform fmt`
+`terraform fmt` # Format configuration
 
-`terraform validate`
+`terraform validate` # Validate syntax
 
-`terraform plan`
+`terraform plan` # Preview changes
 
-`terraform apply`
+`terraform apply` # Deploy infrastructure
 
 After running terraform apply, two ec2 instances will be created with the DNS names and Public IP addresses. Either the DNS names or Public IP addresses can be added to the `hosts.yaml` file.
 
@@ -56,7 +56,7 @@ terraform destroy
 
 then cd into the scripts directory and run the `delete_lab_key` script
 ```bash
-./delete_lab_ley
+./delete_lab_key
 ```
 
 
