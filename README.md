@@ -45,8 +45,8 @@ to check for any errors, if there are no errors, then we run:
 ansible-playbook playbook.yml
 ```
 
-Once all the tasks were successfully completed, we will be able to visit the DNS server:
-
+Once all the tasks were successfully completed, we will be able to visit the webserver by the Public IP address:
+![server screenshot](./lab-wk7-ss.png)
 
 ## Teardown
 CD into the terraform directory and run:
